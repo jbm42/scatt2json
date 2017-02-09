@@ -10,7 +10,7 @@ Convert a SCATT file into JSON
 
 From a 32 bit Windows command line:
 
-CSCRIPT.EXE scatt2json.vbs [<path> <path> ..]
+`CSCRIPT.EXE scatt2json.vbs [<path> <path> ..]`
 
 If paths to files are supplied scatt2json will convert those, otherwise it will scan
 the current directory for '.scatt' files and convert them.
